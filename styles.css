@@ -1,0 +1,128 @@
+:root {
+    --background: #8a8a8a;
+    --headers: #7c7c7c;
+    --details: #b9b9b9;
+}
+
+body {
+    background-color: #a3a3a3;
+}
+
+td {
+    background-color: var(--details)
+}
+
+
+table, th, td {
+    border: 1px solid #484B59;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: var(--headers)
+}
+
+nav>ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0%;
+    align-items: center;
+    justify-content: center;
+    background-color: #b3b3b3;
+
+}
+
+nav>ul>li {
+    padding: 10px;
+}
+
+nav>ul>li:hover {
+    background-color: #5c5c5c;
+}
+
+
+nav>ul>li>a {
+    text-decoration: none;
+    color: white;
+}
+
+#active {
+    background-color: #575757;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+h2 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+h3 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.image {
+    display: block;
+    margin: auto;
+}
+
+.footer-flex {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(190, 190, 190);
+}
+footer>p {
+    text-align: center;
+    background-color:#b1b1b1;
+}
+
+img {
+    display: inline-block;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table {
+    margin-left: 44%;
+   }
+
+.tos2{
+    display: block;
+    text-align: center;
+}
+.tos1 {
+    text-align: center;
+    display: block;
+    text-decoration: underline;
+}
+
+.dowilldontwont {
+    text-align: center;
+    margin: auto;
+}
+
+.willwont {
+    text-align: center;
+    display: inline-block;
+    text-decoration: underline;
+}
+
+.dodont {
+    display: inline-block;
+    text-align: center;
+}
+
+.shop {
+    text-decoration: underline;
+}
+
+.owner {
+    display: grid;
+    place-items: center;
+}
